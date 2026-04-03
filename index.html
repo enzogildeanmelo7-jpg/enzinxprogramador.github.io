@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Site do enzinx!</title>
+        <meta name="description" content="Enzin testando os conhecimentos!">
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #00a2ff;
+                color: rgb(34, 33, 33);
+                padding: 1em;
+            }
+            main {
+                padding: 1em;
+            }
+            footer {
+                background-color: #00a2ff;
+                text-align: center;
+                padding: 1em;
+            }
+        </style>
+        <header>
+            <h1>Enzinx Programador</h1>
+            <p>Testando os seus conhecimentos em programação!</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre meus conhecimentos</h2>
+                <p>Eu sou um <strong>programador iniciante</strong>, e estou aprendendo <em><abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e <abbr title="JavaScript">JavaScript</abbr></em>.</p>
+                <p>Estou aprendendo a criar páginas web e dar vida aos meus projetos. <br> Me acompanhe nessa nova jornada no IFPI Campus Angical!</p>
+            </section>
+            <!--Pergunta 1: Múltiplas escolhas-->
+            <section>
+                <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
+            <form>
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label>
+                <br><input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label>
+                <br><input type="radio" value="CSS" id="p1c" name="pergunta1">
+                <label for="p1c">CSS</label>
+                <br><input type="radio" value="JavaScript" id="p1d" name="pergunta1">
+                <label for="p1d">JavaScript</label>
+            </form>
+            </section>
+            <!--Pergunta 2: Texto-->
+            <section>
+                <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o _______________</h2>
+                <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 3: senha-->
+            <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha forte...">
+                </form>
+            </section>
+            <!--Pergunta 4: data-->
+            <section>
+                <h2>Pergunta 4: Em que ano o HTML lançou a sua primeira versão?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 5: seleção múltipla-->
+            <section>
+                <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+                <form>
+                     <input type="checkbox" id="p5a" name="pergunta5" value=JavaScript> <label for="p5a">JavaScript</label>
+                     <br><input type="checkbox" id="p5a" name="pergunta5" value=HTML> <label for="p5a">HTML</label>
+                     <br><input type="checkbox" id="p5a" name="pergunta5" value=CSS> <label for="p5a">CSS</label>
+                    <br><input type="checkbox" id="p5a" name="pergunta5" value=Java> <label for="p5a">Java</label>
+                </form>
+            </section>
+            <!--Pergunta 6:upload de arquivo-->
+            <section>
+                <h2>Faça o upload de um arquivo contendo código HTML</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <!--Pergunta 7:menu suspenso-->
+            <section>
+                <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="id">Id</option>
+                        <option value="type">Type</option>
+                        <option value="placeholder">Placeholder</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8:imagem-->
+            <section>
+                <h2>Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                <figure>
+                    <img src="Python-logo-notext.svg.png" alt="Logotipo de uma linguagem de programação" height="300px"><br>
+                    <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Feedback</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista, continue praticando! Você está no caminho certo para se tornar um programador habilidoso</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Bom trabalho! Você tem uma boa base, continue se esforçando para aprimorar suas habilidades</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Excelente! Você está se saindo muito bem, continue assim e explore ainda mais o mundo da programação</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Boa! Você já está no nível de um programador experiente</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima! Estude mais um pouco e você vai conseguir!</td>
+                    </tr>
+                </tfoot>
+                </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2>Verifique suas Respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas corretas</summary>
+                    <ol>
+                        <li>HTML</li>
+                        <li>Domínio</li>
+                        <li>P@7x!zT4m#9b</li>
+                        <li>1991</li>
+                        <li>JavaScript e Java</li>
+                        <li>O arquivo deve ter extensão .html</li>
+                        <li>type</li>
+                        <li>Python</li>
+                    </ol>
+                </details>
+            </section>
+            <!--Formulário de Feedback-->
+            <section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset style="width: 10%;">
+                        <legend>Formulário de Feedback</legend>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..."><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email..."><br>
+                        <label for="comentarios">Comentários:</label><br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe seu comentário..."></textarea><br>
+                        <button onclick="alert('Feedback enviado!')">Envie o feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Enzinx Programador. Todos os direitos reservados.</p>
+            <p>
+                Grupo no Whatsapp dos cria do 1º Info: <a href="https://chat.whatsapp.com/LiuvuXj1HfnIRoEr62zlmZ" target="_blank">clique aqui</a>
+            </p>
+        </footer>
+    </body>
+</html>
